@@ -14,7 +14,7 @@ class innoPBX extends SOAPClient {
 	"exceptions" => true,
     );
  
-    const ___wsdl = 'http://www.innovaphone.com/wsdl/pbx800.wsdl';
+    const ___wsdl = 'https://www.innovaphone.com/wsdl/pbx800.wsdl';
  
     // class constructor
     public function __construct(
